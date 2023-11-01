@@ -38,6 +38,22 @@ class Movie
             'pemain' => ['Tom Cruise', 'Jennifer Connelly', 'Miles Teller'],
             'foto_sampul' => 'top-gun.jpg',
         ],
+        [
+            'id' => 'tt174587',
+            'judul' => 'Reunion',
+            'sinopsis' => 'Sam and Leo Cleary have grown up hating each other, and neither likes their juvenile delinquent kid brother, Douglas, to whom they ve only recently been introduced. The sons share the same father, a womanizing drunk, but all have different mothers',
+            'tahun' => 2012,
+            'pemain' => ['Amay Smart', 'Jennifer Connelly', 'Miles Teller'],
+            'foto_sampul' => 'reunion.png',
+        ],
+        [
+            'id' => 'tt174554',
+            'judul' => 'yakuza weapon',
+            'sinopsis' =>'After his father is killed, a young yakuza comes back to Japan for revenge - and a machine gun for an arm.',
+            'tahun' => 2011,
+            'pemain' => ['Cay Izumi', 'Tadanobu Asano', 'Takeshi Kaneshiro'],
+            'foto_sampul' => 'yakuza.png',
+        ],
     ];
 
     public static function all(){
