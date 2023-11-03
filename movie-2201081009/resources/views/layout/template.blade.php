@@ -7,9 +7,9 @@
     <link href="/boostrap/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container">
-          <a class="navbar-brand" href="/">tiMovie</a>
+          <a class="navbar-brand" href="/">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,6 +20,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Watchlist</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Genre
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Drama</a></li>
+                </ul>
               </li>
             </ul>
             <form class="d-flex" action="/search" method="GET">
@@ -34,7 +45,7 @@
         @yield('content')
       </div>
 
-      <footer class="bg-success text-white text-center py-3">
+      <footer class="bg-primary text-white text-center py-3">
         Copyright &copy; {{ date('Y') }} by Teknologi Informasi
       </footer>
     <script src="/boostrap/bootstrap.bundle.min.js"></script>

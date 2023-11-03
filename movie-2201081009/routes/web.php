@@ -17,6 +17,7 @@ use App\Http\Controllers\FajrinController;
  Route::get('/',[FajrinController::class, 'index']);
  Route::get('/movie/{id}',[FajrinController::class, 'detail']);
  Route::get('/search',[FajrinController::class, 'search']);
+ 
 
 
 

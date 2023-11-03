@@ -25,5 +25,5 @@ class FajrinController extends Controller
 
         return view('search', ['movies' => $movies]);
     }
-
+   
 }
