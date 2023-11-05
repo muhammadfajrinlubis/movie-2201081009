@@ -23,6 +23,10 @@
         @endforeach
     </div>
 @else
+<div class="alert alert-danger" role="alert">
     <p>tidak ada data</p>
+</div>
 @endif
+<a href="/" class="btn btn-primary">Kembali</a>
+
 @endsection

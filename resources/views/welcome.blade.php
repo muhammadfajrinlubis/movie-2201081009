@@ -43,6 +43,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ $movie['judul'] }}</h5>
                     <p class="div"> &#9733; {{ $movie['rating'] }}</p>
+                    <p class="fs-3">HD</p>
                     <p class="card-text">{{ implode(',', $movie['pemain']) }}</p>
                     <a href="/movie/{{ $movie['id'] }}" class="btn btn-primary">Detail</a>
                     <a href="/" class="btn btn-warning">What Now</a>

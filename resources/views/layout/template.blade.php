@@ -18,6 +18,18 @@
             font-style: italic;
             font-family: 'Times New Roman', Times, serif;
         }
+        .fs-3{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: black;
+            background-color: green;
+            border-radius: 10%;
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }
 
         .card-title {
             font-weight: bold;
